@@ -48,7 +48,6 @@ mod tests {
 
     #[test]
     fn test_config_builder() {
-        // This is a test
         let config = Config {
             client_id: String::from("test-client-id"),
             secret: String::from("test-secret"),
